@@ -18,15 +18,15 @@ Currently, the application includes two core command-line tools:
 
 I am following an iterative development approach to build this project:
 
-- [x] **Phase 1: MVP (Current)**
+- [x] **Phase 1: MVP**
     - Implementation of basic scripts using Hugging Face `pipeline` (High-level API).
     - Setting up the Git repository and project structure.
-- [ ] **Phase 2: Engineering Deep Dive**
-    - Refactoring code to use `AutoTokenizer` and `AutoModel` directly (Low-level implementation).
-    - Adding custom parameters for text generation.
-- [ ] **Phase 3: Web Application**
+- [ ] **Phase 2: Web Application**
     - Building a user-friendly interface using **Streamlit**.
     - Deploying the application as a web app.
+- [ ] **Phase 3: Engineering Deep Dive**
+    - Refactoring code to use `AutoTokenizer` and `AutoModel` directly (Low-level implementation).
+    - Adding custom parameters for text generation.
 - [ ] **Phase 4: Advanced AI Features**
     - Implementing **RAG (Retrieval-Augmented Generation)** to allow chatting with documents.
     - Adding an SQL Agent using Local LLMs.
