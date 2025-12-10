@@ -1,5 +1,7 @@
 from transformers import pipeline
+import streamlit as st
 
+@st.cache_resource
 def summarizer(text, max_length = 50, min_length = 10 , do_sample = False):
     print("Loading...")
     pipe = pipeline(

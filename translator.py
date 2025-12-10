@@ -1,6 +1,7 @@
 from transformers import pipeline
+import streamlit as st
 
-print('Loading...')
+@st.cache_resource
 def translate_en_to_fr(text):
     pipe = pipeline(
         task='translation',
