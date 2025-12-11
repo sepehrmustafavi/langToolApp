@@ -21,6 +21,6 @@ if menu == 'Summarizer':
     sum_text = st.text_area('Enter your text here:')
     if st.button('Summarize'):
         with st.spinner('Summarizing...'):
-            result2 = summarizer.summarizer(sum_text)
+            result2 = summarizer.text_summarizer(sum_text)
             st.write(result2)
             st.success('Done✅')
