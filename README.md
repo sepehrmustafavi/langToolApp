@@ -27,9 +27,6 @@ I am following an iterative development approach to build this project:
 - [ ] **Phase 3: Engineering Deep Dive**
     - Refactoring code to use `AutoTokenizer` and `AutoModel` directly (Low-level implementation).
     - Adding custom parameters for text generation.
-- [ ] **Phase 4: Advanced AI Features**
-    - Implementing **RAG (Retrieval-Augmented Generation)** to allow chatting with documents.
-    - Adding an SQL Agent using Local LLMs.
 
 ## 🛠️ Tech Stack
 
